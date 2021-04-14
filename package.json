@@ -1,0 +1,11 @@
+{
+  "name": "projectsalon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luiz-de-paula/projectSalon.git",
+  "author": "Luiz-de-paula <eletronica.do.lui@gmail.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
