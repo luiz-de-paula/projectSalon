@@ -5,7 +5,15 @@
   "repository": "https://github.com/luiz-de-paula/projectSalon.git",
   "author": "Luiz-de-paula <eletronica.do.lui@gmail.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.18.1"
   }
 }
