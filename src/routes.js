@@ -4,7 +4,7 @@ const routes = new Router();
 
 routes.get('/', (req, res) => {
 
-    return res.json({message: 'Olá minha delicia'})
+    return res.json({message: 'Olá Luiz Henrique'})
 });
 
 export default routes;
